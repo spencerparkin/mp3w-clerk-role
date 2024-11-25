@@ -8,13 +8,21 @@ class Family:
         self.heads = heads
         self.count = count
 
-    def calc_match_distance(self, zoomer):
+    def match_hit(self, zoom_part):
         dist_list = []
-        dist_list.append(distance(zoomer.lower(), self.name.lower()))
+        dist_list.append(distance(zoom_part.lower(), self.name.lower()))
         for head in self.heads:
-            dist_list.append(distance(zoomer.lower(), head))
+            dist_list.append(distance(zoom_part.lower(), head))
         dist_list.sort()
-        return dist_list[0] if dist_list[0] < 3 else None
+        return dist_list[0] < 3
+
+    def calc_match_hits(self, zoomer):
+        zoom_part_list = zoomer.split(' ')
+        hit_count = 0
+        for zoom_part in zoom_part_list:
+            if self.match_hit(zoom_part):
+                hit_count += 1
+        return hit_count
 
 family_list = [
     Family('Anderson', ['Benjamin', 'Tammy'], 8),
@@ -173,13 +181,11 @@ zoom_list = [
 
 def find_family_for_zoomer(zoomer):
     closest_family = None
-    smallest_match_distance = 9999
+    largest_hit_count = 0
     for family in family_list:
-        match_distance = family.calc_match_distance(zoomer)
-        if not match_distance:
-            continue
-        if match_distance < smallest_match_distance:
-            smallest_match_distance = match_distance
+        hit_count = family.calc_match_hits(zoomer)
+        if hit_count > largest_hit_count:
+            largest_hit_count = hit_count
             closest_family = family
     return closest_family
 
