@@ -8,20 +8,21 @@ class Family:
         self.heads = heads
         self.count = count
 
-    def match_hit(self, zoom_part):
+    def calc_hit_count(self, zoom_part):
         dist_list = []
         dist_list.append(distance(zoom_part.lower(), self.name.lower()))
         for head in self.heads:
-            dist_list.append(distance(zoom_part.lower(), head))
+            dist_list.append(distance(zoom_part.lower(), head.lower()))
         dist_list.sort()
-        return dist_list[0] < 3
+        if dist_list[0] >= 3:
+            return 0
+        return 3 - dist_list[0]
 
     def calc_match_hits(self, zoomer):
         zoom_part_list = zoomer.split(' ')
         hit_count = 0
         for zoom_part in zoom_part_list:
-            if self.match_hit(zoom_part):
-                hit_count += 1
+            hit_count += self.calc_hit_count(zoom_part)
         return hit_count
 
 family_list = [
