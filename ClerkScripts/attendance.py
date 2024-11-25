@@ -174,9 +174,12 @@ if __name__ == '__main__':
     attendance_count = sum(count_list)
     print('In-person count: %d' % attendance_count)
 
+    other_zoom_count = float(len(zoom_list)) * average_family_size
+
     zoom_count_list = [1, 3, 1, 2, 2, 4, 2, 1, 1, 1, 1, 2]
     zoom_count = sum(zoom_count_list)
     print('Zoom count: %d' % zoom_count)
+    print('Other zoom count: %f' % other_zoom_count)
 
     total = zoom_count + attendance_count
     print('Total: %d' % total)
