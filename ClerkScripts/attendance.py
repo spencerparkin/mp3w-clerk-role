@@ -165,5 +165,18 @@ zoom_list = [
 
 if __name__ == '__main__':
 
+    average_family_size = 0.0
+    for family in family_list:
+        average_family_size += float(family.count)
+    average_family_size /= float(len(family_list))
+    print('Average family size: %f' % average_family_size)
+
     attendance_count = sum(count_list)
     print('In-person count: %d' % attendance_count)
+
+    zoom_count_list = [1, 3, 1, 2, 2, 4, 2, 1, 1, 1, 1, 2]
+    zoom_count = sum(zoom_count_list)
+    print('Zoom count: %d' % zoom_count)
+
+    total = zoom_count + attendance_count
+    print('Total: %d' % total)
