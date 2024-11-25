@@ -8,15 +8,21 @@ class Family:
         self.heads = heads
         self.count = count
 
-    def calc_hit_count(self, zoom_part):
+    def calc_smallest_distance(self, zoom_part):
         dist_list = []
-        dist_list.append(distance(zoom_part.lower(), self.name.lower()))
+        family_name_distance = distance(zoom_part.lower(), self.name.lower())
+        dist_list.append(family_name_distance)
         for head in self.heads:
             dist_list.append(distance(zoom_part.lower(), head.lower()))
         dist_list.sort()
-        if dist_list[0] >= 3:
+        return dist_list[0], dist_list[0] == family_name_distance
+
+    def calc_hit_count(self, zoom_part):
+        smallest_distance, critical_hit = self.calc_smallest_distance(zoom_part)
+        if smallest_distance >= 3:
             return 0
-        return 3 - dist_list[0]
+        multiplier = 10 if critical_hit else 1
+        return (3 - smallest_distance) * multiplier
 
     def calc_match_hits(self, zoomer):
         zoom_part_list = zoomer.split(' ')
@@ -180,32 +186,53 @@ zoom_list = [
     'Bennett'
 ]
 
-def find_family_for_zoomer(zoomer):
-    closest_family = None
+def find_families_for_zoomer(zoomer):
+    found_family_list = []
     largest_hit_count = 0
     for family in family_list:
         hit_count = family.calc_match_hits(zoomer)
+        if hit_count == 0:
+            continue
         if hit_count > largest_hit_count:
             largest_hit_count = hit_count
-            closest_family = family
-    return closest_family
+            found_family_list = [family]
+        elif hit_count == largest_hit_count:
+            found_family_list.append(family)
+    return found_family_list
 
 if __name__ == '__main__':
 
     attendance_count = sum(count_list)
 
-    family_set = set()
+    unknown_count = 0
+
+    found_family_set = set()
     for zoomer in zoom_list:
-        family = find_family_for_zoomer(zoomer)
-        if not family:
+        print('-------------------------------')
+        print('Trying to match zoomer "%s"...' % zoomer)
+        found_family_list = find_families_for_zoomer(zoomer)
+        if len(found_family_list) == 0:
             print('Could not match "%s" against a family' % zoomer)
+            print('Counting as just one individual.')
+            unknown_count += 1
+        elif len(found_family_list) == 1:
+            family = found_family_list[0]
+            print('Matched "%s" with family "%s" having %d family member(s)' % (zoomer, family.name, family.count))
+            found_family_set.add(family)
         else:
-            print('Matched "%s" with family "%s" having %d member(s)' % (zoomer, family.name, family.count))
-            family_set.add(family)
+            print('"%s" matched ambiguously against the following families...' % zoomer)
+            i = 0
+            for family in found_family_list:
+                i += 1
+                print('%d -- "%s" having %d family member(s)' % (i, family.name, family.count))
+            family = found_family_list[0]
+            print('Chose "%s" arbitrarily.' % family.name)
+            found_family_set.add(family)
 
     print('In-person count: %d' % attendance_count)
 
-    for family in family_set:
+    attendance_count += unknown_count
+    for family in found_family_set:
         attendance_count += family.count
 
     print("Final attendance count: %d" % attendance_count)
