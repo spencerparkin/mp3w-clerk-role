@@ -9,5 +9,5 @@ if __name__ == '__main__':
     zoom = 13
     zoom_factor = 1.5
 
-    attendance_count = float(sum(count_list)) + float(zoom) * zoom_factor
+    attendance_count = int(round(float(sum(count_list)) + float(zoom) * zoom_factor))
     print('Attendance: %d' % attendance_count)
