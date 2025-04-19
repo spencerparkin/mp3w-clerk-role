@@ -14,7 +14,7 @@ class Person:
             'first_name': self.first_name
         }
         if self.last_sacrament_prayer_date is not None:
-            date['last_sacrament_prayer_date'] = date.strftime('%Y-%m-%d')
+            date['last_sacrament_prayer_date'] = date.strftime('%m-%d-%Y')
         else:
             date['last_sacrament_prayer_date'] = None
         return data
