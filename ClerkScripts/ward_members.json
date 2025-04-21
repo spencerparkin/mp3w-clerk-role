@@ -50,6 +50,11 @@
             "first_name": "Diane",
             "last_name": "Bastian"
         },
+		{
+			"first_name": "Marci",
+			"last_name": "Crans",
+			"last_sacrament_prayer_date": "04-20-2025"
+		},
         {
             "first_name": "Elizabeth",
             "last_name": "Bates"
@@ -580,7 +585,8 @@
         },
         {
             "first_name": "Susan",
-            "last_name": "Mercer"
+            "last_name": "Mercer",
+			"last_sacrament_prayer_date": "04-20-2025"
         },
         {
             "first_name": "Scott",
