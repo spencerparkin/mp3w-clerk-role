@@ -169,7 +169,7 @@
         {
             "first_name": "Mark",
             "last_name": "Callister",
-            "last_sacrament_prayer_date": "06-23-2024"
+            "last_sacrament_prayer_date": "05-11-2025"
         },
         {
             "first_name": "Carrie",
@@ -262,7 +262,7 @@
         {
             "first_name": "Mark",
             "last_name": "Dustin",
-            "last_sacrament_prayer_date": "09-15-2024"
+            "last_sacrament_prayer_date": "04-27-2025"
         },
         {
             "first_name": "Tracy",
@@ -452,7 +452,8 @@
         },
         {
             "first_name": "Yoshihiko",
-            "last_name": "Kikuchi"
+            "last_name": "Kikuchi",
+            "last_sacrament_prayer_date": "05-11-2025"
         },
         {
             "first_name": "Toshiko",
@@ -476,6 +477,11 @@
             "first_name": "Lucinda",
             "last_name": "Lahn",
             "last_sacrament_prayer_date": "01-12-2025"
+        },
+        {
+            "first_name": "Sam",
+            "last_name": "Lahn",
+            "last_sacrament_prayer_date": "05-18-2025"
         },
         {
             "first_name": "Bert",
@@ -568,7 +574,7 @@
         {
             "first_name": "Andrew",
             "last_name": "Meono",
-            "last_sacrament_prayer_date": "01-21-2024"
+            "last_sacrament_prayer_date": "04-27-2025"
 
         },
         {
@@ -624,7 +630,8 @@
         },
         {
             "first_name": "Rick",
-            "last_name": "Myers"
+            "last_name": "Myers",
+            "last_sacrament_prayer_date": "05-04-2025"
         },
         {
             "first_name": "Peggy",
@@ -742,7 +749,8 @@
         },
         {
             "first_name": "Stan",
-            "last_name": "Roberts"
+            "last_name": "Roberts",
+            "last_sacrament_prayer_date": "05-04-2025"
         },
         {
             "first_name": "Liz",
@@ -829,7 +837,7 @@
         {
             "first_name": "Brian",
             "last_name": "Stagg",
-            "last_sacrament_prayer_date": "01-19-2025"
+            "last_sacrament_prayer_date": "05-18-2025"
         },
         {
             "first_name": "Stephanie",
