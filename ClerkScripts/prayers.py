@@ -6,7 +6,7 @@ import argparse
 from person import Person
 
 if __name__ == '__main__':
-    # TODO: There should be a way to update our list of ward members from CVS.  I think that LCR can export a CSV of all members.
+    # TODO: There should be a way to update our list of ward members from CSV.  I think that LCR can export a CSV of all members.
 
     arg_parser = argparse.ArgumentParser(prog='Players', description='A program that can help you determine who hasn\'t prayed in a while in church.')
     arg_parser.add_argument('-n', '--never', action='store_true', help='Show all those, and only those, who have never prayed in church according to records.')

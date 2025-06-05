@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": "--never"
+            "args": "--count=40"
         },
         {
             "name": "Python Debugger: Current File",
