@@ -1,0 +1,5 @@
+# Ignore stuff for Qt app...
+
+out/
+.vs/
+build/

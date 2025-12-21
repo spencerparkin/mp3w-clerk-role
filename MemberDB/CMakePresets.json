@@ -1,0 +1,37 @@
+{
+  "version": 4,
+  "configurePresets": [
+    {
+      "name": "vs-debug",
+      "displayName": "VS Debug (vcpkg)",
+      "generator": "Visual Studio 17 2022",
+      "binaryDir": "${sourceDir}/out/build/vs-debug",
+        "cacheVariables": {
+            "CMAKE_TOOLCHAIN_FILE": "D:\\git_repos\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake",
+            "VCPKG_TARGET_TRIPLET": "x64-windows"
+        }
+    },
+    {
+      "name": "vs-release",
+      "displayName": "VS Release (vcpkg)",
+      "generator": "Visual Studio 17 2022",
+      "binaryDir": "${sourceDir}/out/build/vs-release",
+        "cacheVariables": {
+            "CMAKE_TOOLCHAIN_FILE": "D:\\git_repos\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake",
+            "VCPKG_TARGET_TRIPLET": "x64-windows"
+        }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "vs-debug",
+      "configurePreset": "vs-debug",
+      "configuration": "Debug"
+    },
+    {
+      "name": "vs-release",
+      "configurePreset": "vs-release",
+      "configuration": "Release"
+    }
+  ]
+}

@@ -9,8 +9,9 @@ if __name__ == '__main__':
     # TODO: There should be a way to update our list of ward members from CSV.  I think that LCR can export a CSV of all members.
 
     arg_parser = argparse.ArgumentParser(prog='Players', description='A program that can help you determine who hasn\'t prayed in a while in church.')
-    arg_parser.add_argument('-n', '--never', action='store_true', help='Show all those, and only those, who have never prayed in church according to records.')
+    arg_parser.add_argument('-n', '--never', default=False, action='store_true', help='Show all those, and only those, who have never prayed in church according to records.')
     arg_parser.add_argument('-c', '--count', default=None, help='Show given number of people who have prayed in church, starting with the oldest.')
+    arg_parser.add_argument('-d', '--export', default=None, help='Export JSON prayer data to CSV.', action='store_true')
 
     args = arg_parser.parse_args()
 
@@ -29,10 +30,18 @@ if __name__ == '__main__':
         for i in range(count):
             ward_member = ward_member_list[i]
             print('%s: %s %s' % (ward_member.last_sacrament_prayer_date.strftime('%m-%d-%Y'), ward_member.first_name, ward_member.last_name))
-    elif args.never is not None:
+    elif args.never:
         never_list = list(filter(lambda ward_member: ward_member.last_sacrament_prayer_date is None, ward_member_list))
         print('Showing %s ward members who\'ve never prayed in church according to the record.' % len(never_list))
         for ward_member in never_list:
             print('%s %s' % (ward_member.first_name, ward_member.last_name))
+    elif args.export:
+        with open('ward_members.csv', 'w') as handle:
+            handle.write('First Name, Last Name, Prayer Date\n')
+            for ward_member in ward_member_list:
+                first_name = ward_member.first_name
+                last_name = ward_member.last_name
+                prayer_date = ward_member.last_sacrament_prayer_date.strftime('%m-%d-%Y') if ward_member.last_sacrament_prayer_date is not None else 'No record'
+                handle.write('%s, %s, %s\n' % (first_name, last_name, prayer_date))
     else:
         print('Oops!')
