@@ -1,5 +1,5 @@
 #include <QApplication>
-#include <QLabel>
+#include "MainWindow.h"
 
 int main(int argc, char** argv)
 {
@@ -10,9 +10,10 @@ int main(int argc, char** argv)
 #endif
 
 	QApplication app(argc, argv);
-	QLabel label;
-	label.setText("Hello!");
-	label.show();
+
+	MainWindow mainWindow(nullptr);
+	mainWindow.resize(1200, 800);
+	mainWindow.show();
 	
 	return app.exec();
 }

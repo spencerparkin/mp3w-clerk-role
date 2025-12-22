@@ -10,6 +10,10 @@ find_package(Qt6 CONFIG REQUIRED COMPONENTS Widgets REQUIRED)
 
 add_executable(MemberDB
 	Source/Main.cpp
+	Source/Database.cpp
+	Source/Database.h
+	Source/MainWindow.cpp
+	Source/MainWindow.h
 )
 
 target_link_libraries(MemberDB PRIVATE
