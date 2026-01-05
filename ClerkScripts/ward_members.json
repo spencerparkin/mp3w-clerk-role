@@ -296,7 +296,8 @@
         },
         {
             "first_name": "Richard",
-            "last_name": "Fowler"
+            "last_name": "Fowler",
+            "last_sacrament_prayer_date": "01-04-2026"
         },
         {
             "first_name": "Caitlin",
@@ -433,7 +434,8 @@
         },
         {
             "first_name": "Mark",
-            "last_name": "Jaynes"
+            "last_name": "Jaynes",
+            "last_sacrament_prayer_date": "01-04-2026"
         },
         {
             "first_name": "Aaron",
