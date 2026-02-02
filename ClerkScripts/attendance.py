@@ -1,8 +1,8 @@
 # attendance.py -- Quick script to calculate attendance taken during Sacrament meeting.
 
 count_list = [
-    13, 9, 11, 17, 11, 9, 10, 10, 12, 11,
-    14, 22, 2, 4, 3, 13, 9, 12, 7, 6, 6, 1, 5
+    10, 8, 12, 12, 11, 3, 14, 16,
+    12, 8, 8, 19, 4, 4, 2, 3, 2, 7, 1, 11, 9, 6, 7
 ]
 
 if __name__ == '__main__':
