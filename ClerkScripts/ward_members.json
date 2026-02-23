@@ -36,7 +36,7 @@
         {
             "first_name": "Lee",
             "last_name": "Barker",
-            "last_sacrament_prayer_date": "02-09-2025"
+            "last_sacrament_prayer_date": "02-08-2026"
         },
         {
             "first_name": "Rachel",
@@ -45,7 +45,8 @@
         },
         {
             "first_name": "Mary",
-            "last_name": "Barnes"
+            "last_name": "Barnes",
+            "comment": "not active; would probably say no"
         },
         {
             "first_name": "Diane",
@@ -129,12 +130,13 @@
         },
         {
             "first_name": "Bethany",
-            "last_name": "Bryant"
+            "last_name": "Bryant",
+            "last_sacrament_prayer_date": "02-08-2026"
         },
         {
             "first_name": "Michael",
             "last_name": "Budge",
-            "last_sacrament_prayer_date": "11-03-2024"
+            "last_sacrament_prayer_date": "02-22-2026"
         },
         {
             "first_name": "Kara",
@@ -157,7 +159,8 @@
         },
         {
             "first_name": "Hanna",
-            "last_name": "Burt"
+            "last_name": "Burt",
+            "comment": "never ask; hates my guts"
         },
         {
             "first_name": "David",
@@ -212,7 +215,8 @@
         },
         {
             "first_name": "Dusty",
-            "last_name": "Clegg"
+            "last_name": "Clegg",
+            "comment": "never ask, hates my guts"
         },
         {
             "first_name": "Molly",
@@ -309,7 +313,7 @@
             "last_name": "Fratto"
         },
         {
-            "first_name": "Json",
+            "first_name": "Jason",
             "last_name": "Freckleton"
         },
         {
@@ -596,7 +600,6 @@
             "first_name": "Andrew",
             "last_name": "Meono",
             "last_sacrament_prayer_date": "04-27-2025"
-
         },
         {
             "first_name": "Ed",
@@ -759,7 +762,8 @@
         },
         {
             "first_name": "Del",
-            "last_name": "Rhodes"
+            "last_name": "Rhodes",
+            "comment": "never ask; doesn't want to"
         },
         {
             "first_name": "Susan",
@@ -892,11 +896,13 @@
         },
         {
             "first_name": "Ron",
-            "last_name": "Stromberg"
+            "last_name": "Stromberg",
+            "comment": "never ask; cites parkinsons as a problem"
         },
         {
             "first_name": "Helen",
-            "last_name": "Stromberg"
+            "last_name": "Stromberg",
+            "comment": "never ask; cites parkinsons as a problem"
         },
         {
             "first_name": "Eric",
@@ -926,7 +932,7 @@
         {
             "first_name": "Kim",
             "last_name": "Tuttle",
-            "last_sacrament_prayer_date": "03-02-2025"
+            "last_sacrament_prayer_date": "02-22-2026"
         },
         {
             "first_name": "Joshua",
@@ -934,11 +940,13 @@
         },
         {
             "first_name": "Aubrey",
-            "last_name": "Twitchell"
+            "last_name": "Twitchell",
+            "comment": "never ask; not interested; too shy"
         },
         {
             "first_name": "Darren",
-            "last_name": "Walker"
+            "last_name": "Walker",
+            "comment": "never ask; hates my guts"
         },
         {
             "first_name": "Kim",
@@ -992,7 +1000,8 @@
         },
         {
             "first_name": "Miriam",
-            "last_name": "West"
+            "last_name": "West",
+            "comment": "never ask, absolutely hates my guts; not active"
         },
         {
             "first_name": "Carol",
