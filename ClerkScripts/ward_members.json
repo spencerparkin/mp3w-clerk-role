@@ -3,7 +3,7 @@
         {
             "first_name": "Benjamin",
             "last_name": "Anderson",
-            "last_sacrament_prayer_date": "12-28-2025"
+            "last_sacrament_prayer_date": "05-03-2026"
         },
         {
             "first_name": "Tammy",
@@ -26,7 +26,7 @@
         {
             "first_name": "David",
             "last_name": "Barker",
-            "last_sacrament_prayer_date": "10-13-2024"
+            "last_sacrament_prayer_date": "07-19-2026"
         },
         {
             "first_name": "Darlene",
@@ -55,7 +55,7 @@
 		{
 			"first_name": "Marci",
 			"last_name": "Crans",
-			"last_sacrament_prayer_date": "04-20-2025"
+			"last_sacrament_prayer_date": "04-19-2026"
 		},
         {
             "first_name": "Elizabeth",
@@ -116,7 +116,7 @@
         {
             "first_name": "Jacob",
             "last_name": "Bruderer",
-            "last_sacrament_prayer_date": "12-08-2024"
+            "last_sacrament_prayer_date": "05-24-2026"
         },
         {
             "first_name": "Nicole",
@@ -156,7 +156,7 @@
         {
             "first_name": "Joshua",
             "last_name": "Burt",
-            "last_sacrament_prayer_date": "10-27-2024"
+            "last_sacrament_prayer_date": "04-26-2024"
         },
         {
             "first_name": "Hanna",
@@ -184,7 +184,7 @@
         {
             "first_name": "Carrie",
             "last_name": "Callister",
-            "last_sacrament_prayer_date": "02-16-2025"
+            "last_sacrament_prayer_date": "06-07-2026"
         },
         {
             "first_name": "Sam",
@@ -234,7 +234,7 @@
         {
             "first_name": "Emily",
             "last_name": "Cook",
-            "last_sacrament_prayer_date": "01-05-2025"
+            "last_sacrament_prayer_date": "06-14-2026"
         },
         {
             "first_name": "Weston",
@@ -248,7 +248,7 @@
         {
             "first_name": "Brett",
             "last_name": "Craven",
-			"last_sacrament_prayer_date": "11-02-2025"
+			"last_sacrament_prayer_date": "06-21-2026"
         },
         {
             "first_name": "Shelly",
@@ -321,7 +321,7 @@
         {
             "first_name": "Haley",
             "last_name": "Freckleton",
-            "last_sacrament_prayer_date": "03-09-2025"
+            "last_sacrament_prayer_date": "05-17-2026"
         },
         {
             "first_name": "Christine Audry",
@@ -388,7 +388,7 @@
         {
             "first_name": "Kade",
             "last_name": "Haviland",
-            "last_sacrament_prayer_date": "12-28-2025"
+            "last_sacrament_prayer_date": "08-16-2026"
         },
         {
             "first_name": "Jessica",
@@ -398,7 +398,7 @@
         {
             "first_name": "Jonathan Ray",
             "last_name": "Heiner",
-			"last_sacrament_prayer_date": "11-30-2025"
+			"last_sacrament_prayer_date": "06-14-2026"
         },
         {
             "first_name": "Ali",
@@ -436,7 +436,7 @@
         {
             "first_name": "Lee",
             "last_name": "Jarman",
-            "last_sacrament_prayer_date": "09-29-2024"
+            "last_sacrament_prayer_date": "04-26-2024"
         },
         {
             "first_name": "Colette",
@@ -455,7 +455,7 @@
         {
             "first_name": "Mark",
             "last_name": "Jaynes",
-            "last_sacrament_prayer_date": "01-04-2026"
+            "last_sacrament_prayer_date": "08-02-2026"
         },
         {
             "first_name": "Aaron",
@@ -465,7 +465,7 @@
         {
             "first_name": "Elaine",
             "last_name": "Jaynes",
-            "last_sacrament_prayer_date": "10-26-2025"
+            "last_sacrament_prayer_date": "07-12-2026"
         },
         {
             "first_name": "Peter",
@@ -493,7 +493,7 @@
         {
             "first_name": "Thomas",
             "last_name": "Klc",
-            "last_sacrament_prayer_date": "12-22-2024"
+            "last_sacrament_prayer_date": "05-17-2026"
         },
         {
             "first_name": "Cydney",
@@ -502,7 +502,8 @@
         },
         {
             "first_name": "Steve",
-            "last_name": "Lahn"
+            "last_name": "Lahn",
+            "last_sacrament_prayer_date": "06-28-2026"
         },
         {
             "first_name": "Lucinda",
@@ -528,6 +529,15 @@
             "last_name": "Leavitt"
         },
         {
+            "first_name": "Cary",
+            "last_name": "Leavitt",
+            "last_sacrament_prayer_date": "07-26-2026"
+        },
+        {
+            "first_name": "Barbara",
+            "last_name": "Leavitt"
+        },
+        {
             "first_name": "Filiberto",
             "last_name": "Ledezma Madrigal"
         },
@@ -543,8 +553,13 @@
         {
             "first_name": "Rose",
             "last_name": "Ledezma Soto",
-            "last_sacrament_prayer_date": "02-01-2026"
+            "last_sacrament_prayer_date": "05-03-2026"
         },
+        {
+            "first_name": "Shay",
+            "last_name": "Ledezma",
+            "last_sacrament_prayer_date": "05-31-2026"
+        }
         {
             "first_name": "Stephen",
             "last_name": "Leigh",
@@ -558,7 +573,7 @@
         {
             "first_name": "Max",
             "last_name": "Loveless",
-            "last_sacrament_prayer_date": "01-11-2026"
+            "last_sacrament_prayer_date": "05-24-2026"
         },
         {
             "first_name": "Julianne Joyce",
@@ -573,6 +588,11 @@
             "first_name": "Conner",
             "last_name": "Critchlow",
             "last_sacrament_prayer_date": "03-31-2024"
+        },
+        {
+            "first_name": "Aubry",
+            "last_name": "Critchlow",
+            "last_sacrament_prayer_date": "08-02-2026"
         },
         {
             "first_name": "Fernando",
@@ -641,7 +661,7 @@
         {
             "first_name": "Ruth",
             "last_name": "Mills",
-            "last_sacrament_prayer_date": "02-02-2025"
+            "last_sacrament_prayer_date": "06-21-2026"
         },
         {
             "first_name": "Adam",
@@ -696,12 +716,12 @@
         {
             "first_name": "Matt",
             "last_name": "Nelson",
-            "last_sacrament_prayer_date": "09-08-2024"
+            "last_sacrament_prayer_date": "05-10-2026"
         },
         {
             "first_name": "Kellie",
             "last_name": "Nelson",
-            "last_sacrament_prayer_date": "11-24-2024"
+            "last_sacrament_prayer_date": "08-16-2026"
         },
         {
             "first_name": "Neal",
@@ -794,12 +814,12 @@
         {
             "first_name": "Scott",
             "last_name": "Rogers",
-            "last_sacrament_prayer_date": "02-23-2025"
+            "last_sacrament_prayer_date": "07-19-2026"
         },
         {
             "first_name": "Teresa",
             "last_name": "Rogers",
-            "last_sacrament_prayer_date": "12-21-2025"
+            "last_sacrament_prayer_date": "05-31-2026"
         },
         {
             "first_name": "Jamie",
@@ -808,6 +828,16 @@
         {
             "first_name": "Lori",
             "last_name": "Sadler"
+        },
+        {
+            "first_name": "Kaden",
+            "last_name": "Sandberg",
+            "last_sacrament_prayer_date": "06-07-2026"
+        },
+        {
+            "first_name": "Shelby",
+            "last_name": "Sandberg",
+            "last_sacrament_prayer_date": "07-12-2026"
         },
         {
             "first_name": "Brad",
@@ -820,7 +850,7 @@
         {
             "first_name": "Bonnie",
             "last_name": "Shaffer",
-            "last_sacrament_prayer_date": "10-27-2024"
+            "last_sacrament_prayer_date": "04-19-2026"
         },
         {
             "first_name": "David",
@@ -900,7 +930,7 @@
         {
             "first_name": "Cami",
             "last_name": "Stapley",
-            "last_sacrament_prayer_date": "11-17-2024"
+            "last_sacrament_prayer_date": "07-05-2026"
         },
         {
             "first_name": "Ron",
@@ -915,7 +945,7 @@
         {
             "first_name": "Eric",
             "last_name": "Su",
-            "last_sacrament_prayer_date": "07-21-2024"
+            "last_sacrament_prayer_date": "07-05-2026"
         },
         {
             "first_name": "Olivia",
@@ -935,7 +965,8 @@
         },
         {
             "first_name": "Eric",
-            "last_name": "Tuttle"
+            "last_name": "Tuttle",
+            "last_sacrament_prayer_date": "05-10-2026"
         },
         {
             "first_name": "Kim",
@@ -944,7 +975,8 @@
         },
         {
             "first_name": "Joshua",
-            "last_name": "Twitchell"
+            "last_name": "Twitchell",
+            "last_sacrament_prayer_date": "07-26-2026"
         },
         {
             "first_name": "Aubrey",
